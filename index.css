@@ -1,11 +1,11 @@
 html {
-  background-color: cyan;
+  background-color: blueviolet;
 }
 
 body {
   width: 70%;
   margin: 0 auto;
-  background-color: blueviolet;
+  background-color: #F00;
   text-align: center;
 }
 
@@ -13,8 +13,9 @@ div {
   margin: 0 33% 0 0;
 }
 
-#header {
-  color: #888;
+#header,
+#github {
+  color: greenyellow;
 }
 
 /* #johi {} */
