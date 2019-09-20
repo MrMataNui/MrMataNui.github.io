@@ -1,0 +1,53 @@
+html {
+  background-color: cyan;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  background-color: blueviolet;
+  text-align: center;
+}
+
+div {
+  margin: 0 33% 0 0;
+}
+
+#header {
+  color: #888;
+}
+
+/* #johi {} */
+
+.clearfix {
+  overflow: auto;
+  zoom: 1;
+}
+
+.container {
+  display: -webkit-flex;
+  display: flex;
+}
+
+.initial {
+  -webkit-flex: initial;
+  flex: initial;
+  width: 200px;
+  min-width: 100px;
+}
+
+.none {
+  -webkit-flex: none;
+  flex: none;
+  width: 200px;
+}
+
+.flex1 {
+  -webkit-flex: 1;
+  flex: 1;
+}
+
+.flex2 {
+  -webkit-flex: 2;
+  flex: 2;
+}
