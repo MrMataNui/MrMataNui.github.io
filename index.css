@@ -1,24 +1,19 @@
 html {
-  background-color: blueviolet;
+  margin: auto;
+  background-image: url('general_background.png');
+  background-attachment: fixed;
 }
 
 body {
   width: 70%;
   margin: 0 auto;
-  background-color: #F00;
+  background-color: #555;
   text-align: center;
 }
 
-div {
-  margin: 0 33% 0 0;
-}
+/* div { margin: 0 33% 0 0; } */
 
-#header,
-#github {
-  color: greenyellow;
-}
-
-/* #johi {} */
+/* #header, #github { color: greenyellow; } */
 
 .clearfix {
   overflow: auto;
@@ -51,4 +46,18 @@ div {
 .flex2 {
   -webkit-flex: 2;
   flex: 2;
+}
+
+@font-face {
+  font-family: Martian;
+  src: url('Xeheixw.ttf'), url('Xeheixw.eot');
+  font-weight: normal;
+  font-style: normal;
+}
+
+martian,
+.martian {
+  font-family: Martian;
+  font-size: 100%;
+  font-style: normal;
 }
