@@ -1,63 +1,67 @@
 html {
-  margin: auto;
-  background-image: url('general_background.png');
-  background-attachment: fixed;
+	margin: auto;
+	background-image: url('general_background.png');
+	background-attachment: fixed;
 }
 
 body {
-  width: 70%;
-  margin: 0 auto;
-  background-color: #555;
-  text-align: center;
+	width: 70%;
+	margin: 0 auto;
+	background-color: #555;
+	text-align: center;
+	margin-top: 1em !important;
+	padding: 2%;
 }
 
 /* div { margin: 0 33% 0 0; } */
 
-/* #header, #github { color: greenyellow; } */
+#header {
+	color: #a815c5;
+}
 
 .clearfix {
-  overflow: auto;
-  zoom: 1;
+	overflow: auto;
+	zoom: 1;
 }
 
 .container {
-  display: -webkit-flex;
-  display: flex;
+	display: -webkit-flex;
+	display: flex;
 }
 
 .initial {
-  -webkit-flex: initial;
-  flex: initial;
-  width: 200px;
-  min-width: 100px;
+	-webkit-flex: initial;
+	flex: initial;
+	width: 200px;
+	min-width: 100px;
 }
 
 .none {
-  -webkit-flex: none;
-  flex: none;
-  width: 200px;
+	-webkit-flex: none;
+	flex: none;
+	width: 200px;
 }
 
 .flex1 {
-  -webkit-flex: 1;
-  flex: 1;
+	-webkit-flex: 1;
+	flex: 1;
 }
 
 .flex2 {
-  -webkit-flex: 2;
-  flex: 2;
+	-webkit-flex: 2;
+	flex: 2;
 }
 
 @font-face {
-  font-family: Martian;
-  src: url('Xeheixw.ttf'), url('Xeheixw.eot');
-  font-weight: normal;
-  font-style: normal;
+	font-family: Martian;
+	src: url('Xeheixw.ttf'), url('Xeheixw.eot');
+	font-weight: normal;
+	font-style: normal;
 }
 
 martian,
 .martian {
-  font-family: Martian;
-  font-size: 100%;
-  font-style: normal;
+	font-family: Martian;
+	font-size: 100%;
+	font-style: normal;
 }
