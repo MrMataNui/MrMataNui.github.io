@@ -16,7 +16,11 @@ body {
 /* div { margin: 0 33% 0 0; } */
 
 #header {
-	color: #a815c5;
+	color: #888;
+}
+
+#pineapple {
+	width: 30%;
 }
 
 .clearfix {
@@ -62,6 +66,5 @@ body {
 martian,
 .martian {
 	font-family: Martian;
-	font-size: 100%;
 	font-style: normal;
 }
