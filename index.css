@@ -15,23 +15,13 @@ body {
 
 /* div { margin: 0 33% 0 0; } */
 
-.header {
-	color: #444;
-}
+.header { color: #444; }
 
-#pineapple {
-	width: 30%;
-}
+#pineapple { width: 30%; }
 
-.clearfix {
-	overflow: auto;
-	zoom: 1;
-}
+.clearfix { overflow: auto; zoom: 1; }
 
-.container {
-	display: -webkit-flex;
-	display: flex;
-}
+.container { display: -webkit-flex; display: flex; }
 
 .initial {
 	-webkit-flex: initial;
@@ -46,15 +36,9 @@ body {
 	width: 200px;
 }
 
-.flex1 {
-	-webkit-flex: 1;
-	flex: 1;
-}
+.flex1 { -webkit-flex: 1; flex: 1; }
 
-.flex2 {
-	-webkit-flex: 2;
-	flex: 2;
-}
+.flex2 { -webkit-flex: 2; flex: 2; }
 
 @font-face {
 	font-family: Martian;
@@ -63,8 +47,7 @@ body {
 	font-style: normal;
 }
 
-martian,
-.martian {
+martian, .martian {
 	font-family: Martian;
 	font-style: normal;
 }
