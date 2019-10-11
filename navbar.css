@@ -31,6 +31,6 @@
 	background-color: #4caf50;
 }
 
-.right {
-	float: right;
-}
+.right { float: right; }
+.right.border { border-right: 1px solid #BBB; }
+.right.Lborder { border-left: 1px solid #BBB; }
