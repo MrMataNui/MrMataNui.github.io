@@ -23,13 +23,7 @@
 	text-decoration: none;
 }
 
-#head-nav li a:hover:not(.active) {
-	background-color: #111;
-}
-
-#head-nav .active {
-	background-color: #4caf50;
-}
+#head-nav li a:hover { background-color: #4caf50; }
 
 .right { float: right; }
 .right.border { border-right: 1px solid #BBB; }
