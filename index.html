@@ -55,12 +55,17 @@
 		<p>This is one of the first sculptures that I've done.</p>
 		<img id="pineapple" alt="Pineapple Man" src="pineapple-man.jpg" />
 		<br />
+    <canvas class="background"></canvas>
+    <script src="particles.min.js"></script>
+    <script>
+      window.onload = () => Particles.init({
+        selector: '.background',
+        maxParticles: 250,
+        speed: 1,
+        connectParticles: true,
+        minDistance: 150,
+        color: ['#FF0', '#0FF', '#F0F']
+      });
+    </script>
 	</body>
 </html>
-<!--
-cd "C:\Users\Tyler\Documents\GitHub\MrMataNui.github.io\conlang-johi"
-ng build --prod --output-path docs --base-href "https://mrmatanui.github.io/conlang/"
-ngh -d docs
-ng build --prod --base-href "https://mrmatanui.github.io/conlang/"
-ngh -d=dist/conlang
--->
