@@ -52,7 +52,7 @@ martian, .martian {
 }
 
 canvas.background {
-  background-color: blueviolet;
+  background-color: #212000;
   background-attachment: fixed;
   position: fixed;
   top: 0; left: 0;
