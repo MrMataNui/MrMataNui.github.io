@@ -54,25 +54,12 @@
 		<p>This is one of the first sculptures that I've done.</p>
 		<img id="pineapple" alt="Pineapple Man" src="pineapple-man.jpg" />
 		<br />
-		<!-- <canvas id="canvas" class="background"></canvas> -->
 		<div id="particles-js"></div>
-		<script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
-		<!-- <script src="new_particles.js"></script> -->
-		<script src="particles.min.js"></script>
+		<script src="assets/particles.min.js"></script>
+		<!-- <script src="particles.min.js"></script> -->
 
 		<script>
-			particlesJS.load('particles-js', 'assets/particles.json', () => console.log('callback - particles.js config loaded'));
-			window.onload = () => Particles.init({
-				selector: '#particles-js',
-				// selector: 'canvas.background',
-				maxParticles: 300,
-				speed: 2,
-				// connectParticles: true,
-				minDistance: 150,
-				// color: ['#9EFF76', '#D776FF']
-				color: '#9EFF76'
-				// color: '#D776FF'
-			});
+			particlesJS.load('particles-js', 'assets/particles.json');
 		</script>
 	</body>
 </html>
