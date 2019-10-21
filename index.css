@@ -51,6 +51,7 @@ martian, .martian {
 	font-style: normal;
 }
 
+#particles-js,
 canvas.background {
   background-color: #212000;
   background-attachment: fixed;

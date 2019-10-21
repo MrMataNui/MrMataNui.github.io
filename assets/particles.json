@@ -7,18 +7,11 @@
         "value_area": 800
       }
     },
-    "color": {
-      "value": "#ffffff"
-    },
+    "color": { "value": "#9EFF76" },
     "shape": {
       "type": "circle",
-      "stroke": {
-        "width": 0,
-        "color": "#000000"
-      },
-      "polygon": {
-        "nb_sides": 5
-      },
+      "stroke": { "width": 0, "color": "#000000" },
+      "polygon": { "nb_sides": 5 },
       "image": {
         "src": "img/github.svg",
         "width": 100,
@@ -46,9 +39,9 @@
       }
     },
     "line_linked": {
-      "enable": true,
+      "enable": false,
       "distance": 300,
-      "color": "#ffffff",
+      "color": "#FFFFFF",
       "opacity": 0.4,
       "width": 2
     },
@@ -70,23 +63,12 @@
   "interactivity": {
     "detect_on": "canvas",
     "events": {
-      "onhover": {
-        "enable": false,
-        "mode": "repulse"
-      },
-      "onclick": {
-        "enable": true,
-        "mode": "push"
-      },
+      "onhover": { "enable": true, "mode": "grab" },
+      "onclick": { "enable": false, "mode": "push" },
       "resize": true
     },
     "modes": {
-      "grab": {
-        "distance": 800,
-        "line_linked": {
-          "opacity": 1
-        }
-      },
+      "grab": { "distance": 800, "line_linked": { "opacity": 1 } },
       "bubble": {
         "distance": 800,
         "size": 80,
@@ -98,12 +80,8 @@
         "distance": 400,
         "duration": 0.4
       },
-      "push": {
-        "particles_nb": 4
-      },
-      "remove": {
-        "particles_nb": 2
-      }
+      "push": { "particles_nb": 4 },
+      "remove": { "particles_nb": 2 }
     }
   },
   "retina_detect": true
