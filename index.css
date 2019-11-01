@@ -30,6 +30,8 @@ body {
 	min-width: 100px;
 }
 
+h1, h2, h3, .megrim { font-family: 'Megrim', cursive; }
+
 .none {
 	-webkit-flex: none;
 	flex: none;
