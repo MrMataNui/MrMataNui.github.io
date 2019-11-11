@@ -1,0 +1,15 @@
+/* #### Mobile Phones Portrait #### */
+@media screen
+and (max-device-width: 480px)
+and (orientation: portrait) {
+	#link-loc {
+		line-height: 2em;
+		color: #FFF;
+	}
+
+	#mobile-nav {
+		display: block;
+		font-size: 2em;
+	}
+	#head-nav { display: none; }
+}
